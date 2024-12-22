@@ -1,6 +1,8 @@
-# automatic
+# spellcast-autoplay
 
-**The most efficient Spellcast automation tool.**
+**The most efficient Discord Spellcast automation tool.**
+
+![Showcase GIF](https://github.com/user-attachments/assets/eb7017da-1672-4d7c-8c16-2aa7a10996d2)
 
 This is a userscript that automatically plays Spellcast.
 
@@ -64,7 +66,7 @@ UI is divided into 3 parts:
      Number of threads passed to the solver in `--threads` argument.  
      However, if you have no swaps available, it will be set to `1` for this round, since multithreading is slower for 0 swaps.  
      Defaults to `navigator.hardwareConcurrency` or `8`.
-   - Auto start timer:
+   - Auto start timer:  
      Whether it should start timer in Spellcast for opponents automatically.
      Defaults to `true`.
 2. **Status**  
