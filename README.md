@@ -9,6 +9,8 @@ This project is written in TypeScript with [Bun](https://bun.sh).
 ## Features
 
 - Powered by the fastest Spellcast solver, [Woidly/spellcast-solver](https://github.com/Woidly/spellcast-solver)
+- Directly injected into the game, so no pixel-perfect setup and mouse control is required
+- Simple UI for configuration
 
 ## Server
 
