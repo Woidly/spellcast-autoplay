@@ -57,6 +57,8 @@ In this case, make sure server is running and can be reached from userscript, an
 
 ### UI
 
+![UI screenshot](https://github.com/user-attachments/assets/1f8c22ce-853e-405a-9dc7-9bc4a313e617)
+
 UI is divided into 3 parts:
 
 1. **Config**  
@@ -76,7 +78,7 @@ UI is divided into 3 parts:
    On error screen there is a "Recover?" button.
    Before pressing it, make sure game is ready to be played (e.g. swap menu is closed, tiles are not shaking).
    Pressing it will perform soft-reset and fix most errors.
-3. **Copyright notice**  
+3. **Credits**  
    `(c) 2024 Woidly`. That's it. I couldn't even put GitHub link in there, because "the request was made in a sandboxed frame whose 'allow-popups' permission is not set".
 
 > [!WARNING]  
