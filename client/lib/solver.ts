@@ -5,6 +5,7 @@ import type { Results, ServerResponse } from "./types/solver";
 const SERVER = "http://localhost:27974/";
 
 function stringifyRawTile(raw: TileData, double: boolean): string {
+  if (raw.key.length != 1) return "W#";
   return (
     raw.key +
     ({ 1: "", 2: "+", 3: "*" }[raw.getLetterMultiplier()] || "") +
